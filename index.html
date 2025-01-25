@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shooes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shop Nike</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to the best sneaker store!</h2>
+        <p>Find the best models for your style.</p>
+    </section>
+    
+    <section id="produtos">
+        <h2>Our Products</h2>
+        <div class="produto">
+            <img src="./img/Air Jordan 4 Taupe Haze.png" alt="Tênis 1">
+            <h3>Jordan 4 Taupe Haze</h3>
+            <p>R$ 299,90</p>
+            <button onclick="adicionarAoCarrinho('Jordan 4 Taupe Haze')">Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="./img/jordan4.png" alt="Tênis 2">
+            <h3>Jordan 4 Black Cat</h3>
+            <p>R$ 199,90</p>
+            <button onclick="adicionarAoCarrinho('Jordan 4 Black Cat')">Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="./img/traviscott.png" alt="Tênis 3">
+            <h3>Travis Scott</h3>
+            <p>R$ 199,90</p>
+            <button onclick="adicionarAoCarrinho('Travis Scott')">Comprar</button>
+        </div>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@lojadetenis.com</p>
+        <p>Telefone: (11) 98765-4321</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Loja de Tênis. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
